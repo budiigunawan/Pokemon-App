@@ -1,5 +1,5 @@
 import React from 'react';
-import {Home} from './pages'
+import {Home,Detail} from './pages'
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,8 +18,8 @@ function App() {
           <Route path="/favorite">
 
           </Route>
-          <Route path="/detail">
-
+          <Route path="/pokemon/:pokemonId">
+            <Detail />
           </Route>
           <Route path="/">
             <Home />
