@@ -1,7 +1,7 @@
 const initialState = {
-    favorites = [],
-    pokemons = [],
-    pokemon = null
+    favorites : [],
+    pokemons : [],
+    pokemon : null
 }
 
 function pokemonReducer (state = initialState, action) {
