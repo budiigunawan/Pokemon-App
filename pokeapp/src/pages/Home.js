@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react'
-import {Navbar, Card} from '../components'
+import {Card} from '../components'
 import {useDispatch, useSelector} from 'react-redux'
 import {getPokemons} from '../store/actions/pokemonAction'
 
